@@ -18,7 +18,6 @@ function assertArraysEqual(arr1, arr2) {
   }
 }
 
-
 function without(source, itemsToRemove) {
   const result = source.filter((element) => itemsToRemove.indexOf(element) === -1);
   return result;
