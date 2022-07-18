@@ -7,17 +7,17 @@ const assertEqual = (actual, expected) => {
   console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
 };
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual(1, 2);
-assertEqual("Bootcamp", "Bootcamp");
+// assertEqual("Lighthouse Labs", "Bootcamp");
+// assertEqual(1, 1);
+// assertEqual(1, 2);
+// assertEqual("Bootcamp", "Bootcamp");
 
 const head = (arr) => {
-  var first = arr[0];
+  let first = arr[0];
   return first;
 };
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([]), 5);
-assertEqual(head([1]), 1);
+// assertEqual(head([5,6,7]), 5);
+// assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+// assertEqual(head([]), 5);
+// assertEqual(head([1]), 1);
