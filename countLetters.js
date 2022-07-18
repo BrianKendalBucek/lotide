@@ -1,11 +1,11 @@
-const assertEqual = (actual, expected) => {
-  if (actual !== expected) {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-    return;
-  }
+// const assertEqual = (actual, expected) => {
+//   if (actual !== expected) {
+//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+//     return;
+//   }
 
-  console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-};
+//   console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+// };
 
 //Create a function called countLetters
 //should take in a sentence (as a string)
