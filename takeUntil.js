@@ -31,14 +31,12 @@
 const takeUntil = (array, callback) => {
   const results = [];
   for (let item of array) {
-    callback(item);
-    return results.push(callback(item));
-    // callback(item);
-    // if (callback(item)) {
-    //   return;
-    // }
+  if (!callback(item)) {
+    results.push(item);
+    } else {
+      return results;
+    }
   }
-  return results;
 }
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
