@@ -29,3 +29,21 @@
 
 //Feel free to take a look at our solution for findKeyByValue. 
 //Some of the core logic will be the same (such as the looping over object keys part).
+
+//FIND KEY BY VALUE
+
+// const tvShows = {
+//   romance: "ER",
+//   drama: "The Wire",
+//   comedy: "Dumber"
+// };
+
+// const findKeyByValue = (obj, find) => {
+  
+//   for (const key of Object.keys(obj)) {
+//     const value = obj[key];
+//     if (value === find) {
+//       return key;
+//     }
+//   }
+// };
