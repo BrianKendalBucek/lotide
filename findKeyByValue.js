@@ -1,11 +1,4 @@
-// const assertEqual = (actual, expected) => {
-//   if (actual !== expected) {
-//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-//     return;
-//   }
-
-//   console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-// };
+const assertEqual = require('./assertEqual');
 
 //function which takes in an obj and a value
 //it should scan the obj and return the first key which contains the given value.
@@ -26,6 +19,8 @@ const findKeyByValue = (obj, find) => {
     }
   }
 };
+
+module.exports = findKeyByValue;
 
 //I want to loop through and have the loop recognize the matching value.
 //Once it recognizes, assign to variable.

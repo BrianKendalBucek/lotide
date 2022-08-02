@@ -1,22 +1,5 @@
-// const eqArrays = (arr1, arr2) => {
-//   if (arr1.length !== arr2.length) {
-//     return false;
-//   }
-//   for (let i = 0; i < arr1.length; i++) {
-//     if (arr1[i] !== arr2[i]) {
-//       return false;
-//     }
-//   }
-//   return true;
-// };
-
-// const assertArraysEqual = (arr1, arr2) => {
-//   if (eqArrays(arr1, arr2)) {
-//     console.log("They are equal");
-//   } else {
-//     console.log("They are not equal");
-//   }
-// };
+const eqArrays = require('./eqArrays');
+const assertArraysEqual = require('./assertArraysEqual');
 
 // Our function will take in two arguments. An array to map. A callback function
 //The function will return a new array based on the results of the callback function.
@@ -30,6 +13,8 @@ const map = function(array, callback) {
   }
   return results;
 }
+
+module.exports = map;
 
 const results1 = map(words, word => word[0]);
 // const results2 = map(words, word => word[1]);

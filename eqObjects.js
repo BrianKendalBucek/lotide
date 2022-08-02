@@ -1,23 +1,5 @@
-// const assertEqual = (actual, expected) => {
-//   if (actual !== expected) {
-//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-//     return;
-//   }
-
-//   console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-// };
-
-// const eqArrays = (arr1, arr2) => {
-//   if (arr1.length !== arr2.length) {
-//     return false;
-//   }
-//   for (let i = 0; i < arr1.length; i++) {
-//     if (arr1[i] !== arr2[i]) {
-//       return false;
-//     }
-//   }
-//   return true;
-// };
+const assertEqual = require('./assertEqual');
+const eqArrays = require('./eqArrays');
 
 // Implement the definition for function eqObjects which will
 // take in two objects and returns true or false, based on a perfect match.
@@ -36,6 +18,8 @@ const eqObjects = function(object1, object2) {
   }
   return true;
 };
+
+module.exports = eqObjects;
 
 
 // const ab = { a: "1", b: "2" };

@@ -9,6 +9,7 @@
 
 //Create a function called countLetters
 //should take in a sentence (as a string)
+const assertEqual = require('./assertEqual');
 //and return a count of each of the letters in that sentence
 
 const countLetters = str => {
@@ -29,6 +30,7 @@ const countLetters = str => {
   return results;
 };
 
+module.exports = countLetters;
 // const result = countLetters("lighthouse in the house")
 // console.log(result);
 // assertEqual(result.l, 1);

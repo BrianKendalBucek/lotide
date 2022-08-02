@@ -1,23 +1,5 @@
-// const eqArrays = (arr1, arr2) => {
-//   if (arr1.length !== arr2.length) {
-//     return false;
-//   }
-//   for (let i = 0; i < arr1.length; i++) {
-//     if (arr1[i] !== arr2[i]) {
-//       return false;
-//     }
-//   }
-//   return true;
-// };
-
-// const assertArraysEqual = (arr1, arr2) => {
-//   if (eqArrays(arr1, arr2)) {
-//     console.log("They are equal");
-//   } else {
-//     console.log("They are not equal");
-//   }
-// };
-
+const eqArrays = require('./eqArrays');
+const assertArraysEqual = require('./assertArraysEqual');
 
 // will take in 2 parameters
 //1. the array to work with
@@ -38,6 +20,8 @@ const takeUntil = (array, callback) => {
     }
   }
 }
+
+module.exports = takeUntil;
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results1 = takeUntil(data1, x => x < 0);
