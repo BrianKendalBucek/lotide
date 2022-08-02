@@ -25,4 +25,5 @@ const middle = array => {
   }
 };
 
+
 module.exports = middle;
