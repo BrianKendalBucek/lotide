@@ -1,15 +1,5 @@
 const assertEqual = require('./assertEqual');
 
-//function which takes in an obj and a value
-//it should scan the obj and return the first key which contains the given value.
-//if no key with that given value is found, then it should return undefined.
-
-const tvShows = {
-  romance: "ER",
-  drama: "The Wire",
-  comedy: "Dumber"
-};
-
 const findKeyByValue = (obj, find) => {
   
   for (const key of Object.keys(obj)) {
@@ -21,6 +11,16 @@ const findKeyByValue = (obj, find) => {
 };
 
 module.exports = findKeyByValue;
+
+//function which takes in an obj and a value
+//it should scan the obj and return the first key which contains the given value.
+//if no key with that given value is found, then it should return undefined.
+
+// const tvShows = {
+//   romance: "ER",
+//   drama: "The Wire",
+//   comedy: "Dumber"
+// };
 
 //I want to loop through and have the loop recognize the matching value.
 //Once it recognizes, assign to variable.

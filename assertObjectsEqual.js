@@ -1,18 +1,5 @@
 const eqObjects = require('./eqObjects');
 
-// const eqObjects = function(object1, object2) {
-//   if(Object.entries(object1).length !== Object.entries(object2).length) {
-//     return false;
-//   }
-//   for (const check of Object.entries(object1)) {
-//   // let key = check[0];
-//     if(object2[check[0]] !== object1[check[0]]){
-//       return false;
-//     }  
-//   }
-//   return true;
-// };
-
 const assertObjectsEqual = function(object1, object2) {
   if (eqObjects(object1, object2)) {
     console.log(`✅✅✅ Assertion Passed: ${object1} === ${object2}`);

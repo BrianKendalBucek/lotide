@@ -7,6 +7,7 @@ const findKey = (object, callback) => {
 };
 
 module.exports = findKey;
+
 //EXAMPLE
 
 // assertEqual(findKey({

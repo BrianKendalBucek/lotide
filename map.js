@@ -1,9 +1,6 @@
 const eqArrays = require('./eqArrays');
 const assertArraysEqual = require('./assertArraysEqual');
 
-// Our function will take in two arguments. An array to map. A callback function
-//The function will return a new array based on the results of the callback function.
-
 const words = ["ground", "control", "to", "major", "tom"];
 
 const map = function(array, callback) {
@@ -16,11 +13,14 @@ const map = function(array, callback) {
 
 module.exports = map;
 
-const results1 = map(words, word => word[0]);
+// Our function will take in two arguments. An array to map. A callback function
+//The function will return a new array based on the results of the callback function.
+
+// const results1 = map(words, word => word[0]);
 // const results2 = map(words, word => word[1]);
 // const results3 = map(words, word => word[2]);
 
-console.log(results1);
+// console.log(results1);
 
 // assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);
 // assertArraysEqual(results2, ['r', 'o', 'o', 'a', 'o']);

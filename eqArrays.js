@@ -1,6 +1,5 @@
 const assertEqual = require('./assertEqual');
 
-//function to compare 2 arrays for a boolean result.
 const eqArrays = (arr1, arr2) => {
   if (arr1.length !== arr2.length) {
     return false;
@@ -14,3 +13,5 @@ const eqArrays = (arr1, arr2) => {
 };
 
 module.exports = eqArrays;
+
+//function to compare 2 arrays for a boolean result.
