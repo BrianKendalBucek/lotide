@@ -16,8 +16,6 @@ const map = require('./map');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
 
-console.log('testing 123');
-
 module.exports = {
   assertArraysEqual: assertArraysEqual,
   assertEqual: assertEqual,
