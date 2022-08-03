@@ -19,8 +19,3 @@ const countLetters = str => {
 };
 
 module.exports = countLetters;
-
-//and return a count of each of the letters in that sentence
-// const result = countLetters("lighthouse in the house")
-// console.log(result);
-// assertEqual(result.l, 1);

@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@briankendalbucek/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide library project for LHL",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/BrianKendalBucek/lotide.git"
   },
-  "author": "",
+  "author": "Brian Bucek <bbucek@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BrianKendalBucek/lotide/issues"

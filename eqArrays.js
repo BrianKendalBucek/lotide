@@ -13,5 +13,3 @@ const eqArrays = (arr1, arr2) => {
 };
 
 module.exports = eqArrays;
-
-//function to compare 2 arrays for a boolean result.
