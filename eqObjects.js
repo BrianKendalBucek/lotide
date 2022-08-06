@@ -3,11 +3,11 @@ const eqObjects = function(object1, object2) {
     return false;
   }
   for (const check of Object.entries(object1)) {
-    if(object2[check[0]] !== object1[check[0]]){
-      return false;
+    if(object2[check[0]] === object1[check[0]]){
+      return true;
     }  
   }
-  return true;
+  return false;
 };
 
 module.exports = eqObjects;

@@ -17,10 +17,13 @@ This project was created and published by me as part of my learnings at Lighthou
 **Require it:**
 
 `const _ = require('@briankendalbucek/lotide');`
+`Mocha`
+`Chai`
 
 **Call it:**
 
 `const results = _.tail([1, 2, 3]) // => [2, 3]`
+
 
 ## Documentation
 
