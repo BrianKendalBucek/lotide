@@ -1,6 +1,3 @@
-const eqArrays = require('./eqArrays');
-const assertArraysEqual = require('./assertArraysEqual');
-
 const flatten = array => {
   let flatArray = [];
   for (let element of array) {

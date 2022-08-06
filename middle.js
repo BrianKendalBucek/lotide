@@ -23,6 +23,3 @@ const middle = array => {
 };
 
 module.exports = middle;
-
-// const eqArrays = require('./eqArrays');
-// const assertArraysEqual = require('./assertArraysEqual');
